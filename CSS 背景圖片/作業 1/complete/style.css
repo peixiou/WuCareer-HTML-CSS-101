@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+
+  background: linear-gradient(rgba(0, 191, 143, 0.5), rgba(0, 21, 16, 0.5)),
+    url(./img/background.jpg);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.hero h1 {
+  font-size: 56px;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.btn {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 16px 40px;
+  background-color: #66b032;
+  outline-style: solid;
+  outline-width: 0.2rem;
+  outline-color: #66b032;
+  outline-offset: 10px;
+}
+
+.col-3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col {
+  height: 40vh;
+  width: 100%;
+}
+
+.col:nth-child(1) {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./img/item1.jpg);
+  background-size: cover;
+}
+
+.col:nth-child(2) {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./img/item2.jpg);
+  background-size: cover;
+}
+
+.col:nth-child(3) {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./img/item3.jpg);
+  background-size: cover;
+}

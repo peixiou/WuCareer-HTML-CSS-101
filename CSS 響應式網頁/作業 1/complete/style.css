@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-areas:
+        "a a a a   a a a a   a a a a"
+        "c c b b   b b b b   b b e e"
+        "c c d d   d d d d   d d e e"
+        "c c d d   d d d d   d d e e"
+        "c c d d   d d d d   d d e e"
+        "f f f f   f f f f   f f f f";
+}
+
+.box {
+    border: 1px solid red;
+    background-color: lightblue;
+}
+
+#box-1 {
+    grid-area: a;
+}
+
+#box-2 {
+    grid-area: b;
+}
+
+#box-3 {
+    grid-area: c;
+}
+
+#box-4 {
+    grid-area: d;
+}
+
+#box-5 {
+    grid-area: e;
+}
+
+#box-6 {
+    grid-area: f;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        grid-template-areas: 
+      "a a a a   a a a a   a a a a"
+      "b b b b   b b b b   b b b b "
+      "c c d d   d d d d   d d d d"
+      "c c d d   d d d d   d d d d"
+      "c c d d   d d d d   d d d d"
+      "e e f f   f f f f   f f f f";
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container{
+        grid-template-areas: 
+        "a a a a   a a a a   a a a a"
+        "b b b b   b b b b   b b b b "
+        "d d d d   d d d d   d d d d"
+        "d d d d   d d d d   d d d d"
+        "d d d d   d d d d   d d d d"
+        "c c c c   c c c c   c c c c"
+        "e e e e   e e e e   e e e e"
+        "f f f f   f f f f   f f f f";
+    }
+}
