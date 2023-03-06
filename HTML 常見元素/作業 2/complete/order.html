@@ -1,75 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Taiwan No.1 咖啡廳 | 點餐</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Taiwan No.1 咖啡廳 - 點餐頁面</h1>
     <p>這邊點餐呦~~</p>
     <h3>訂購表單</h3>
     <form>
-        <p>個人資訊</p>
-        <label for="name">訂購人姓名</label>
-        <input type="text" name="name" id="name">
-        <br>
-        <label for="email">訂購人電子郵件</label>
-        <input type="email" name="email" id="email">
-        <br>
-        <label for="phone">訂購人手機號碼</label>
-        <select>
-            <option value="886">台灣（+886）</option>
-            <option value="1">美國（+1）</option>
-        </select>
-        <input type="tel" name="phone" id="phone">
+      <p>個人資訊</p>
 
-        <p>訂購項目</p>
-        <label for="item1">美式</label>
-        <input type="checkbox" name="item3" id="item1">
-        <br>
-        <label for="item1-bg">大杯 $180</label>
-        <input type="radio" name="item1-spec" id="item1-bg">
-        <label for="item1-md">中杯 $120</label>
-        <input type="radio" name="item1-spec" id="item1-md">
-        <label for="item1-sm">小杯 $80</label>
-        <input type="radio" name="item1-spec" id="item1-sm">
-        <br>
-        <br>
+      <label for="name">訂購人姓名</label>
+      <input type="text" name="name" id="name" required />
+      <br />
 
-        <label for="item3">拿鐵</label>
-        <input type="checkbox" name="item3" id="item1">
-        <br>
-        <label for="item2-bg">大杯 $180</label>
-        <input type="radio" name="item2-spec" id="item2-bg">
-        <label for="item2-md">中杯 $120</label>
-        <input type="radio" name="item2-spec" id="item2-md">
-        <label for="item2-sm">小杯 $80</label>
-        <input type="radio" name="item2-spec" id="item2-sm">
-        <br>
-        <br>
+      <label for="email">訂購人電子郵件</label>
+      <input type="text" name="email" id="email" required />
+      <br />
 
-        <label for="item3">提拉米蘇</label>
-        <input type="checkbox" name="item3" id="item3">
-        <br>
-        <label for="item3-8in">大杯 $180</label>
-        <input type="radio" name="item3-spec" id="item3-8in">
-        <label for="item3-6in">中杯 $120</label>
-        <input type="radio" name="item3-spec" id="item3-6in">
-        <label for="item3-1pc">小杯 $80</label>
-        <input type="radio" name="item3-spec" id="item3-1pc">
-        <br>
-        <br>
-        <br>
+      <label for="phone">訂購人手機號碼</label>
+      <select>
+        <option value="886">台灣（+886）</option>
+        <option value="1">美國（+1）</option>
+      </select>
+      <input type="tel" name="phone" id="phone" required />
 
-        <input type="checkbox" name="promo-msg" id="promo-msg">
-        <label for="promo-msg">我優惠訊息！</label>
-        <br>
-        <br>
+      <p>訂購項目</p>
 
-        <input type="submit" value="確認訂購">
+      <label for="item1">美式</label>
+      <input type="checkbox" name="item1" id="item1" />
+      <br />
+
+      <label for="item1-bg">大杯 $180</label>
+      <input type="radio" name="item1-spec" id="item1-bg" />
+      <label for="item1-md">中杯 $120</label>
+      <input type="radio" name="item1-spec" id="item1-md" />
+      <label for="item1-sm">小杯 $80</label>
+      <input type="radio" name="item1-spec" id="item1-sm" />
+      <br />
+      <br />
+
+      <label for="item3">拿鐵</label>
+      <input type="checkbox" name="item3" id="item1" />
+      <br />
+
+      <label for="item2-bg">大杯 $180</label>
+      <input type="radio" name="item2-spec" id="item2-bg" />
+      <label for="item2-md">中杯 $120</label>
+      <input type="radio" name="item2-spec" id="item2-md" />
+      <label for="item2-sm">小杯 $80</label>
+      <input type="radio" name="item2-spec" id="item2-sm" />
+      <br />
+      <br />
+
+      <label for="item3">提拉米蘇</label>
+      <input type="checkbox" name="item3" id="item3" />
+      <br />
+
+      <label for="item3-8in">大杯 $180</label>
+      <input type="radio" name="item3-spec" id="item3-8in" />
+      <label for="item3-6in">中杯 $120</label>
+      <input type="radio" name="item3-spec" id="item3-6in" />
+      <label for="item3-1pc">小杯 $80</label>
+      <input type="radio" name="item3-spec" id="item3-1pc" />
+
+      <br />
+      <br />
+      <br />
+
+      <input type="checkbox" name="promo-msg" id="promo-msg" />
+      <label for="promo-msg">我優惠訊息！</label>
+      <br />
+      <br />
+
+      <input type="submit" value="確認訂購" />
     </form>
     <a target="_blank" href="./index.html">回首頁</a>
-</body>
+  </body>
 </html>
