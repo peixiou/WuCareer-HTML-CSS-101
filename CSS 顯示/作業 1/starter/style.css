@@ -1,19 +1,19 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
 }
 
 .btn {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 p {
-    margin-bottom: 16px;
-    font-size: 2rem;
+  margin-bottom: 16px;
+  font-size: 2rem;
 }
 
 p:last-child {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }

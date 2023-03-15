@@ -1,52 +1,52 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 10px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
 }
 
 body {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 .section {
-    margin: 60px 120px 0px;
-    background-color: #fff;
-    padding: 20px 40px;
-    border-radius: 10px;
+  margin: 60px 120px 0px;
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
 }
 
 .section-title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .section-title h1 {
-    font-size: 4.8rem;
+  font-size: 4.8rem;
 }
 
 .title-underline {
-    height: 5px;
-    width: 8%;
-    background-color: gold;
-    margin-top: 5px;
+  height: 5px;
+  width: 8%;
+  background-color: gold;
+  margin-top: 5px;
 }
 
 .btn {
-    text-decoration: none;
-    color: black;
-    padding: 12px 32px;
-    background-color: lightcoral;
-    display: inline-block;
-    margin-top: 20px;
-    border-radius: 10px;
-    font-size: 2rem;
+  text-decoration: none;
+  color: black;
+  padding: 12px 32px;
+  background-color: lightcoral;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 2rem;
 }
 
 p {
-    margin-bottom: 16px;
-    font-size: 2rem;
+  margin-bottom: 16px;
+  font-size: 2rem;
 }
 
 p:last-child {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
