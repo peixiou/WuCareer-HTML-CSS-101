@@ -1,23 +1,23 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 header {
-    background-color: pink;
+  background-color: pink;
 }
 
 section {
-    display: inline-block;
-    background-color: yellow;
+  display: inline-block;
+  background-color: yellow;
 }
 
 aside {
-    display: inline-block;
-    background-color: blue;
+  display: inline-block;
+  background-color: blue;
 }
 
 footer {
-    background-color: red;
+  background-color: red;
 }

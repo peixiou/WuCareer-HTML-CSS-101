@@ -1,31 +1,34 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
 }
 
 header {
-    height: 8vh;
-    width: 100vw;
-    background-color: pink;
+  height: 8%;
+  background-color: pink;
 }
 
 section {
-    display: inline-block;
-    height: 87vh;
-    width: 85vw;
-    background-color: yellow;
+  height: 87%;
+  width: 85%;
+  display: inline-block;
+  background-color: yellow;
 }
 
 aside {
-    display: inline-block;
-    background-color: blue;
-    width: 15vw;
-    height: 87vh;
+  height: 87%;
+  width: calc(100% - 85%);
+  display: inline-block;
+  background-color: blue;
 }
 
 footer {
-    height: 5vh;
-    width: 100vw;
-    background-color: red;
+  height: calc(100% - 8% - 87%);
+  background-color: red;
 }
