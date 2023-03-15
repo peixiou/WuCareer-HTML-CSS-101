@@ -20,37 +20,32 @@
 }
 
 .inner {
+  position: absolute;
   width: 100px;
   height: 100px;
   background-color: white;
 }
 
 #inner2 {
-  position: absolute;
   top: 0;
   left: 200px;
 }
 
 #inner3 {
-  position: absolute;
   top: 0;
   right: 0;
 }
 
 #inner4 {
-  position: absolute;
   bottom: 0;
-  left: 0;
 }
 
 #inner5 {
-  position: absolute;
   bottom: 0;
   left: 200px;
 }
 
 #inner6 {
-  position: absolute;
   bottom: 0;
   right: 0;
 }
