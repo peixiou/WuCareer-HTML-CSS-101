@@ -6,10 +6,8 @@
 
 .hero {
   height: 100vh;
-
   background: linear-gradient(rgba(0, 191, 143, 0.5), rgba(0, 21, 16, 0.5)),
     url(./img/background.jpg);
-
   display: flex;
   align-items: center;
   justify-content: center;
